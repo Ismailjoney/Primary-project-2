@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* All header style */
+h1{
+    letter-spacing: 5px;
+    font-size:41px;
+}
+
+/* header section style */
+.container{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+  
+}
+ .top-banner{
+    width:80%; 
+    display:flex;
+    justify-content: space-around;
+    background-color:rgba(0, 0, 0, 0.897);
+    color:aliceblue;
+    padding:60px 0 0 0;
+    border-radius: 20px;
+    
+ }
+ .banner-header{
+    display: flex;
+    align-items: center;
+ }
+ .banner-img img{
+    /* width:100%; */
+    height:400px;
+    display:block;
+ }
+ .header-pra{
+    margin:19px 0;
+    line-height: 1.5;
+ }
+ .banner-btn{
+    text-decoration:none;
+    display: inline-block;
+    padding:13px 38px;
+    font-weight: bold;
+    font-size: 22px;
+    background-color:rgb(243, 17, 17);
+    color:rgb(226, 217, 217);
+    border-radius: 15px;
+ }
+
+ 
+/*----------------
+ mobile responsive
+ ----------------------------- */
+
+ @media only screen and (max-width:576px) {
+    .container{
+        margin-top:0;;
+        display: block;   
+    }
+  
+    .top-banner{
+         flex-direction: column;
+         width:100%;
+         border-radius: 0;
+     
+     } 
+     .banner-header{
+        display: flex;
+         justify-content: center;
+         padding-bottom: 25px;
+     }
+     .banner-img img{
+         width:70%;
+         margin:auto;
+     }
+ }
+    
